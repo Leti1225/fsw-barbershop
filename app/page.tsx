@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { Button } from "./_components/ui/button"
 
 //SERVER COMPONENTS
 const Home = () => {
-  const [] = useState();
-  return <button>test</button>;
-};
+  return <Button>test</Button>
+}
 
-export default Home;
+export default Home
