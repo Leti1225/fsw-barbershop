@@ -1,3 +1,5 @@
+//conexão com o banco
+
 import { PrismaClient } from "@prisma/client"
 
 declare global {
