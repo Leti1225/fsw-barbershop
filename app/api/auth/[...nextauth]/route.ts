@@ -1,4 +1,4 @@
-//configuração do google provider
+//configuração do google provider + pegando informações do usuário no banco de dados
 import { db } from "@/app/_lib/prisma"
 import { PrismaAdapter } from "@auth/prisma-adapter"
 import NextAuth from "next-auth"
