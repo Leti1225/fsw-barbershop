@@ -3,9 +3,11 @@
 ## Descrição
 O projeto foi desenvolvido durante o evento do **Full Stack Week** com o intuito de aprender a utilizar ferramentas e frameworks que vêm sendo amplamente usadas na área de desenvolvimento WEB. 
 
-A aplicação foi colocada em um ambiente de produção, que pode ser acessada na seção About.
+A aplicação foi colocada em um ambiente de produção, que pode ser acessada na seção **About**.
 
 Além disso, a aplicação permite fazer login com a sua conta do Google, para que seja possível realizar agendamentos no sistema.
+
+Para melhor visualização da plataforma, recomendo colocá-la em **dimensões de tela mobile**. Futuramente, ela estará adaptada para desktop.
 
 
 ## Setup
