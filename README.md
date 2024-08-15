@@ -1,7 +1,11 @@
 # Sistema web para barbearia
 
 ## Descrição
-O projeto foi desenvolvido durante o evento do Full Stack Week com o intuito de aprender a utilizar ferramentas e frameworks que vêm sendo amplamente utilizadas na área de desenvolvimento WEB e colocá-lo em um ambiente de produção
+O projeto foi desenvolvido durante o evento do **Full Stack Week** com o intuito de aprender a utilizar ferramentas e frameworks que vêm sendo amplamente usadas na área de desenvolvimento WEB. 
+
+A aplicação foi colocada em um ambiente de produção, que pode ser acessada na seção About.
+
+Além disso, a aplicação permite fazer login com a sua conta do Google, para que seja possível realizar agendamentos no sistema.
 
 
 ## Setup
@@ -36,17 +40,39 @@ O projeto foi desenvolvido durante o evento do Full Stack Week com o intuito de 
 
 ## Instruções de uso
 
+### Pré - requisitos
+Para que o projeto funcione em sua máquina, é necessário:
+- Ter o Node.js, Next.js, React, NPM, Tailwind CSS, Prisma e PostgreSQL instalados 
+- Configurar o Shadcn
+- Instalar os componentes do Shadcn da pasta `app\_components\ui`
+- Instalar o React Hook Form
+- Baixar as extensões listadas no VS Code
+- Ter um ambiente de hospedagem do banco de dados PostgreSQL (recomendo o Neon)
+- Ter um ambiente de hospedagem fazer o deploy da aplicação (recomendo o Vercel)
+- Criar uma página `.env` para colocar as seguintes variáveis de ambiente:
+   - **DATABASE_URL**: deve conter a URL de conexão com o seu banco de dados PostgreSQL
+   - **GOOGLE_CLIENT_ID**: deve conter o ID do cliente do Google, necessário para fazer a autenticação com o Google
+   - **GOOGLE_CLIENT_SECRET**: deve conter o segredo do cliente do Google
+   - **NEXT_AUTH_SECRET**: deve conter a chave secreta para o NextAuth.js
+
+
 ### Terminal
-1. Execute o servidor de desenvolvimento:
+Após cumprir os pré-requisitos, siga o passo a passo abaixo:
+
+1. Clone o repositório na sua máquina
+
+```bash
+git clone https://github.com/Leti1225/fsw-barbershop.git
+```
+
+2. No VS code, abra o terminal e execute o seguinte comando para iniciar o servidor:
 
 ```bash
 npm run dev
 ```
-2. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado (pode demorar uns segundos para que a compilação seja concluida)
 
-### Navegador
-(endereço das paginas, tem que ta logado para fazer agendamentos, pode cancelar, etc)
+3. Coloque o cursor sobre [http://localhost:3000](http://localhost:3000) e pressione `ctrl + click` para abrir o projeto no seu navegador  (pode demorar uns segundos para que a compilação seja concluida)
 
-## Gitflow
-(regras para contribuição - por exemplo, os commits devem ter um commit conventional, prettier)
+## Contribuição
+Contribuições para ampliar as funcionalidades da barbearia e/ou melhorar o código são muito bem-vindas! Para isso, basta seguir as [convenções de commits](https://www.conventionalcommits.org/en/v1.0.0/) e solicitar um pull request ou gerar uma issue em uma nova branch.
 
